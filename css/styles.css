@@ -1,0 +1,56 @@
+
+/*=========header=======*/
+
+#logo {
+	float: left;
+	width: 300px;
+}
+
+header h1,h2 {
+	text-align: right;
+	color: #6eaceb;
+	margin-right: 50px;
+
+}
+
+/*======main content========*/
+
+.main_img img {
+	max-width: 100%;
+	width: 1130px;
+}
+
+#main_content h3 {
+	margin-left: 20px;
+	color: #6eaceb;
+	font-weight: bold;
+	font-size: 3.5em;
+	opacity: 0.8;
+}
+#main_content h4 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.work_images img {
+	height: 300px;
+}
+.work_images {
+	margin-bottom: 10px;
+}
+
+/*=========responsive======*/
+
+@media only screen and (max-width: 600px) {
+	h1,h2 {
+		font-size: 1.3em;
+	}
+	#logo {
+		width: 150px;
+		position: relative;
+		top: 25px;
+	}
+	#main_content h3 {
+		font-size: 2em;
+	}
+}
